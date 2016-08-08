@@ -10,7 +10,7 @@ public class Test2 {
 	   String arr[]=s1.split(" ");
 	   for(int l=arr.length-1;l>=0;l--)
 	     {
-	       revorder=revorder+" "+arr[i];
+	       revorder=revorder+" "+arr[l];
 	     }
 	     System.out.println("REVERSE ORDER  OF THE GIVEN STRING IS : " " +revorder);
              
